@@ -1,0 +1,59 @@
+🐍 Day One - Python for DevOps
+📌 What I Learned Today
+🔹 What is Python?
+Python is a simple and powerful programming language. It's easy to read and write. That’s why many DevOps Engineers use it for automation, scripting, and tool development.
+
+🆚 Python vs Shell Scripting
+Feature	Python	Shell Scripting
+Easy to Read	✅ Yes	❌ No (can get confusing)
+Works on All Systems	✅ Yes	❌ Mostly on Linux/Unix
+Handles Complex Logic Easily	✅ Yes	❌ Not so well
+Can Call APIs (like AWS)	✅ Yes (boto3, requests)	❌ No
+Reusable Code (Functions)	✅ Yes	✅ Limited
+
+🔸 In short:
+Use Shell for simple system tasks.
+Use Python when you need something more powerful, like calling APIs, parsing data, or writing long scripts.
+
+💻 Why DevOps Engineers Use Python
+To automate tasks like checking disk space, restarting services, or managing servers.
+
+To work with APIs (like AWS, Jenkins, Docker).
+
+To parse and handle files (JSON, YAML, CSV, etc.).
+
+To create CI/CD tools or helper scripts.
+
+To build or extend tools like Ansible or Terraform.
+
+⚙️ How Python is Used in Ansible
+Write your own Ansible modules using Python.
+
+Use Python filters/plugins to change values inside playbooks.
+
+Create dynamic inventory scripts with Python.
+
+Read and handle data from files like YAML/JSON in scripts.
+
+✅ Python vs Shell – Common Tasks
+Task	Shell	Python
+Create/Delete Files	✅	✅
+Restart Services	✅	✅
+Call APIs (like AWS/GitHub)	❌	✅
+Parse JSON/YAML/Logs	❌	✅
+Build Tools or Automation Scripts	❌	✅
+
+🛠️ DevOps Use Cases for Python
+Auto-check system health
+
+Start/stop cloud servers (like AWS EC2)
+
+Read log files and send alerts
+
+Create or update config files
+
+Build small tools for your team
+
+Write automation scripts for CI/CD
+
+
