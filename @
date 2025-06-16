@@ -1,0 +1,16 @@
+#function for findall
+
+
+import re
+
+
+
+
+result ="pranjul Gupta is devops engineer and working in high paying job"
+
+pattern = r"working in high"
+
+search = re.search(pattern, result)
+
+
+print("pattern found:" , serach.group())
