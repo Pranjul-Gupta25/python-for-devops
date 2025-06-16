@@ -1,1 +1,1 @@
-# pyhton-for-devops
+# python-for-devops
